@@ -1,0 +1,52 @@
+.seccion-pokemon{
+    padding: 20px 30px;
+    .seccion-pokemon__crear-pokemn{
+        margin-bottom: 10px;
+        i{
+            font-size: 25px;
+        }
+    }
+    .seccion-pokemon__lista-pokemon{
+        margin-top: 30px;
+    }
+    .seccion-pokemon__lista-pokemon-detail{
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+        .seccion-pokemon__lista-pokemon-detail-text{
+            width: 70%;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            border: 1px solid black;
+            margin-right: 10px;
+        }
+        .seccion-pokemon__lista-pokemon-detail_name{        
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .seccion-pokemon__lista-pokemon-detail_list{
+            display: flex;
+            align-items: center;
+            span{
+                font-weight: bold;
+                margin-right: 5px;
+            }
+            p{
+                margin: 0
+            }
+        } 
+        .seccion-pokemon__lista-pokemon-detail-delete{
+            i{
+                font-size: 25px;
+            }
+        }  
+    }
+    .seccion-pokemon__lista-pokemon-detail:last-child{
+        border-bottom: none;
+    }
+}

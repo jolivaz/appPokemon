@@ -1,0 +1,22 @@
+.list-select{
+    min-width: 120px;
+    margin: 0 20px;
+}
+.btn-enviar{
+    width: 100%;
+    margin: 20px auto;
+    background: transparent;
+    border: 2px solid green;
+    font-weight: 600;
+    color: green;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.btn-enviar:disabled{
+    opacity: 0.6;
+    background: rgba(43, 166, 61, 0.8);
+}
+form{
+    padding: 15px 20px;
+    background: rgba(226, 244, 37, 0.3);
+}

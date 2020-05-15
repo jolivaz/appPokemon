@@ -1,0 +1,18 @@
+.seccion-entrenadores{
+    padding: 20px 30px;
+    .seccion-entrenadores__crear-entrenador{
+        margin-bottom: 35px;
+        i{
+            font-size: 25px;
+        }
+    }
+    .refresh{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .item-entrenador{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}   
