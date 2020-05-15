@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"
 import NuevoPokemon from './nuevoPokemon/nuevoPokemon'
-import "./pokemon.scss";
-import { ConsoleWriter } from "istanbul-lib-report";
+import "./pokemon.scss"
 
 function Pokemon() {
   const [listDetailPokemon, setListDetailPokemon] = useState([]);

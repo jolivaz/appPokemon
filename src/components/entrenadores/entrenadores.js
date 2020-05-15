@@ -30,11 +30,14 @@ function Entrenadores() {
       const handleDeleteEntrenador = (e,id) => {
           e.preventDefault()
         fetch(`https://api.dev.perfivo.com/pokeapi/v0/trainers/${id}/`, {
-            method: 'delete'
+            method: 'DELETE'
         })
         .then(response => response.json())
         .then(data => {
             console.log('ELIMINADO')
+            let newList = entrenadores.filter(entrenador => 
+                entrenador.id !== id)
+            setEntrenadores(newList)
             setShowDeleteEntrenador(true)
             setTimeout(() => {
                 setShowDeleteEntrenador(false)

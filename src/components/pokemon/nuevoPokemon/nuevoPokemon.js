@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import Button from '@material-ui/core/Button';
 import './nuevoPokemon.scss'
 
 const NuevoPokemon = () => {
